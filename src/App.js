@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Amplify from 'aws-amplify';
 import { withAuthenticator } from '@aws-amplify/ui-react';
 import { Authenticator } from "aws-amplify-react";
-//import awsconfig from './aws-exports';
+import awsconfig from './aws-exports';
 import Navbar from './Components/Navbar';
 import Calculator from './Components/Calculator'
 import Home from './Components/Home';
