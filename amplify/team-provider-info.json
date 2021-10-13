@@ -1,0 +1,23 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-synkmetro-dev-114012-authRole",
+            "UnauthRoleArn": "arn:aws:iam::472699189866:role/amplify-synkmetro-dev-114012-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::472699189866:role/amplify-synkmetro-dev-114012-authRole",
+            "Region": "ap-south-1",
+            "DeploymentBucketName": "amplify-synkmetro-dev-114012-deployment",
+            "UnauthRoleName": "amplify-synkmetro-dev-114012-unauthRole",
+            "StackName": "amplify-synkmetro-dev-114012",
+            "StackId": "arn:aws:cloudformation:ap-south-1:472699189866:stack/amplify-synkmetro-dev-114012/e91b1a80-25a2-11ec-8be3-02b03a3df896",
+            "AmplifyAppId": "d3dp5u6y1tb3kx"
+        },
+        "categories": {
+            "function": {
+                "synkmetro0497c0770497c077PostConfirmation": {}
+            },
+            "auth": {
+                "synkmetro0497c0770497c077": {}
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "synkmetroapi",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authsynkmetro0497c0770497c077",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "trigger": true,
+  "modules": [
+    "custom"
+  ],
+  "parentResource": "synkmetro0497c0770497c077",
+  "functionName": "synkmetro0497c0770497c077PostConfirmation",
+  "resourceName": "synkmetro0497c0770497c077PostConfirmation",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "C:\\Users\\LENOVO\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-category-auth\\provider-utils\\awscloudformation\\utils/../triggers/PostConfirmation",
+  "triggerTemplate": "PostConfirmation.json.ejs",
+  "roleName": "synkmetro0497c0770497c077PostConfirmation",
+  "skipEdit": true
+}
