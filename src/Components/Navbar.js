@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { AmplifySignOut } from "@aws-amplify/ui-react";
 import synlogo from "../images/synke.PNG";
-import { GoogleComponent } from 'react-google-location' ;
 
-const API_KEY = "AIzaSyCw1MIvDDD-hEG-FGTNTIg6NZHkxVi3eDk";
+
 
 function Navbar({ user, location }) {
 
@@ -20,16 +19,7 @@ function Navbar({ user, location }) {
     
       <nav className="navbar navbar-light bg-secondary">
         
-        <GoogleComponent
-         
-         apiKey={API_KEY}
-         language={'en'}
-         country={'country:in'}
-         coordinates={true}
-         locationBoxStyle={'custom-style'}
-         locationListStyle={'custom-style-list'}
-         onChange={(e) => { setPlace({ place: e }) }} />
-
+       
 
         <ul>
           <div className="d-flex justify-content-start">
